@@ -1,0 +1,194 @@
+
+.messages-block{
+	
+}
+
+.messages{
+	border: 1px solid #ccc;
+	height: 415px; 
+	overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+div#new_message {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;  
+    font: -moz-field;
+    font: -webkit-small-control;
+    margin-top: 5px;
+    padding: 2px 3px;
+    width: 398px;    
+    min-height: 60px;
+    background: url(/chat/style/images/chatbg.jpg);
+}
+
+
+textarea#new_message{
+	width:400px;
+	height:70px;
+	resize: none;
+}
+
+.message{
+	margin: 5px 10px 0px 10px;
+}
+	
+	.message.left{
+		text-align: left;
+	}
+
+	.message.right{
+		text-align: right;
+	}
+		.message_item{
+			display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 10px;
+		    padding: 2px;
+		    background: #cfd6f7;
+		    background: #f7f4eb;
+		}
+
+		.message .m_ava{
+
+		}
+
+		.message .m_data{
+
+		}
+
+			.message .m_text_block{
+
+			}
+
+				.message .m_from{
+					font-size: 11px;
+    				color: #00f;
+				}
+
+				.message p{
+					margin: 2px 4px;
+				}
+
+				.message .m_date{
+					font-size: 10px;
+					color: #1f1918
+				}
+
+#topics{
+
+}
+
+	.topics_menu_block{
+
+	}
+
+		ul.topics_menu{
+			list-style: none;
+			padding: 0px;
+			margin: 0px;
+		}
+
+			ul.topics_menu li.topic_item_active{
+				color: #f00;
+			}
+			ul.topics_menu li.topic_item_active a{
+				color: #f00;
+			}
+
+			ul.topics_menu li{
+				display: inline-block;
+				padding-left: 5px;
+			}
+			ul.topics_menu li a{
+
+			}
+
+			ul.topics_menu li:first-child{
+				border-left: none;
+			}
+
+.set_member_to{
+	cursor:pointer;
+}
+
+#remove_send_to{
+	margin-left: 15px;
+	color:#f00;
+	cursor:pointer;
+}
+
+.member_online{
+color: #0f0;
+    font-size: 15px;
+}
+
+#message-box{
+
+}
+
+
+#smiles_block{
+
+}
+
+#open_smiles{
+	cursor: pointer;
+}
+
+#smiles{
+}
+	#smiles_block ul{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#smiles_block ul li{
+		list-style: none;
+		display: inline-block;
+	}
+
+		#smiles_block ul li img{
+			cursor: pointer;
+		}
+
+
+
+
+#searchResult{
+	position: relative;
+}
+
+	#chat_members_list_search{
+		position: absolute;
+		z-index: 99;
+		background: #fff;
+	}
+
+		#searchResult_items{
+			background: #fff;
+		}
+
+		#searchResult_items ul{
+			margin:0px;
+			padding:0px;
+			width: 100%;
+			max-height: 300px;
+			overflow-y: scroll;
+		}
+
+		#searchResult_items ul a,#searchResult_items ul span{
+			color: #000;
+		}
+
+
+#clear_search_result{
+	display: none;
+	color: #f00;
+	cursor: pointer;
+}

@@ -1,0 +1,7 @@
+#file-methods,#target_albums,#loaded_image{
+	display: none;
+}
+
+.stick-album-photo{
+	cursor: pointer;
+}

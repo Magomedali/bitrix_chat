@@ -1,0 +1,117 @@
+#modal-window{
+	display: none;
+	position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #10101082;
+    z-index: 98;
+}
+
+#modal-blank{
+    position: relative;
+    z-index: 99;
+    padding: 100px 0px;
+    min-height: 800px;
+}
+
+#modal-close-cover{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+#modal-window-container{
+	width: 80%;
+    margin: 0px auto;
+    position: relative;
+    z-index: 101;
+}
+
+
+#modal{
+    width: 100%;
+    background: white;
+    position: relative;
+}
+
+#modal-close-btn{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 102;
+}
+
+
+#modal-content{
+	min-height: 50px;
+	padding: 15px;
+}
+
+
+.modal-close-btn{
+    cursor: pointer;
+}
+
+
+#albumshow{
+
+}
+
+#albumshow ul  {
+    margin: 0px;
+    padding: 0px;
+}
+
+#albumshow ul li{
+    margin: 3px;
+    list-style: none;
+    display: inline-block;
+}
+
+
+#searchResult{
+    position: relative;
+}
+
+    #chat_topics_list_search{
+        position: absolute;
+        z-index: 99;
+        background: #fff;
+    }
+
+        #searchResult_items{
+            background: #fff;
+            border: 1px solid;
+        }
+
+        #searchResult_items ul{
+            margin:0px;
+            padding:0px;
+            width: 100%;
+            max-height: 300px;
+            overflow-y: scroll;
+        }
+
+        #searchResult_items ul a,#searchResult_items ul span{
+            color: #000;
+        }
+
+
+#clear_search_result{
+    display: none;
+    color: #f00;
+    cursor: pointer;
+}
+
+.wish_sort_change{
+    width: 50px;
+}

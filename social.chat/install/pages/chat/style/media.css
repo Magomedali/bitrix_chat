@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px){
+	.new-text-block{
+		width: 100%; 
+	}
+
+	.message .m_from{
+		margin-bottom: 10px;
+	}
+
+	.new-text-block,
+	#message-box-file,
+	.block_button_send,
+	span#send_to,
+	.slick-arrow{
+		position: static !important;
+	}
+
+	.slick-arrow{
+		margin: 10px 0;
+	}
+
+	.window_chat {
+	    padding-bottom: 0 !important;
+	}
+
+	div#new_message{
+		padding: 10px !important;
+	}
+
+	div#all_members{
+		width: 100% !important;
+		left: 0;
+	}
+
+	.all_member_item {
+	    width: 110px !important;
+	}
+}
